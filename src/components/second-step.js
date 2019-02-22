@@ -16,7 +16,6 @@ class Second extends Component {
 
     render() {
         const selectItem = this.selectItem;
-        console.log( this.props )
         return(
             <section className="second-step">
                 <div className="question-page-two questionnarie-container">

@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {Steps} from 'primereact/steps';
+import ReactDOM from 'react-dom'
 import {connect} from 'react-redux';
 import * as actions from '../store/actions/index';
 import Second from './second-step';
@@ -7,56 +8,60 @@ import Third from './third-step';
 import Fourth from './fourth'
 import Reccommended from './RecommendedPlan'
 class Main extends Component {
-    set0 = ()=>{
-
-            this.setState({
-                activeIndex: 0,
-                header: "Who's signing up",
-                component: <Second changeStep={this.set1}/>
-            })
-
+    setHeaderForLastStep = () => {
+        this.setState({
+            header: 'Plan Selection',
+        })
     };
-
-    set1 = ()=>{
-
-            this.setState({
-                activeIndex: 1,
-                header: "Relationship status",
-                component: <Third changeStep={this.set2}/>
-            })
-
-    };
-    set2 = ()=>{
-
-            this.setState({
-                activeIndex: 2,
-                header: "How many calls would your father like to receive per week?",
-                component: <Fourth  changeStep={this.set3} />
-            })
-
-    };
-    set3 = ()=>{
+    set0 = () => {
 
         this.setState({
+            activeIndex: 0,
+            header: "Who's signing up",
+            component: <Second changeStep={this.set1}/>
+        })
+
+    };
+    set1 = () => {
+
+        this.setState({
+            activeIndex: 1,
+            header: "Relationship status",
+            component: <Third changeStep={this.set2}/>
+        })
+
+    };
+    set2 = () => {
+
+        this.setState({
+            activeIndex: 2,
+            header: "Call Quantity",
+            component: <Fourth changeStep={this.set3}/>
+        })
+
+    };
+    set3 = () => {
+        this.setState({
             activeIndex: 3,
-            header: "Here's your recommended Carenote plan",
-            component: <Reccommended  />
+            header: "Plan Selection",
+            component: <Reccommended setHeaderForLastStep={this.setHeaderForLastStep}/>
         })
 
     };
     state = {
         activeIndex: 0,
         header: "Who's signing up",
-        component: <Second changeStep={this.set1} />,
-        questions:{
-            usingSteps:'',
-            careMember:'',
-            calls:''
+        component: <Second changeStep={this.set1}/>,
+        questions: {
+            usingSteps: '',
+            careMember: '',
+            calls: ''
         }
     };
 
-    validateSteps = ( step )=>{
-        if( this.state.activeIndex<=step){
+
+    validateSteps = (step) => {
+        if (this.state.activeIndex <= step) {
             return true
         }
         return false
@@ -68,6 +73,20 @@ class Main extends Component {
     }
 
     render() {
+        const stepsDom = ReactDOM.findDOMNode(this.stepContainer);
+        if (stepsDom) {
+            const stepsUl = ReactDOM.findDOMNode(stepsDom.childNodes[0]);
+            for (let a = 0; a <= 3; a++) {
+                let exactLi = stepsUl.childNodes[a];
+                let atag = exactLi.childNodes[0].childNodes[0];
+
+                if (a <= this.state.activeIndex) {
+                    atag.style = 'background:#F79F2C'
+                } else {
+                    atag.style = 'background:#fff'
+                }
+            }
+        }
 
         const set0 = this.set0;
         const set1 = this.set1;
@@ -78,7 +97,7 @@ class Main extends Component {
         const items = [{
             label: '',
             command: (event) => {
-                if( !this.validateSteps(0) ){
+                if (!this.validateSteps(0)) {
                     this.setState({
                         activeIndex: 0,
                         header: "Who's signing up",
@@ -92,7 +111,7 @@ class Main extends Component {
             {
                 label: '',
                 command: (event) => {
-                    if( !this.validateSteps(1) ){
+                    if (!this.validateSteps(1)) {
                         this.setState({
                             activeIndex: 1,
                             header: "Relationship status",
@@ -105,11 +124,12 @@ class Main extends Component {
             {
                 label: '',
                 command: (event) => {
-                    if( !this.validateSteps(2) ){
+                    if (!this.validateSteps(2)) {
                         this.setState({
                             activeIndex: 2,
-                            header: "How many calls would your father like to<br/>receive per week?",
-                            component: <Fourth changeStep={set3} />
+                            header: "Call Quantity",
+                            header2: "",
+                            component: <Fourth changeStep={set3}/>
                         })
                     }
 
@@ -118,10 +138,10 @@ class Main extends Component {
             {
                 label: '',
                 command: (event) => {
-                    if( !this.validateSteps(3) ){
+                    if (!this.validateSteps(3)) {
                         this.setState({
                             activeIndex: 2,
-                            header: "Here's your recommended Carenote plan",
+                            header: "Plan Selection",
                             component: <Reccommended  />
                         })
                     }
@@ -132,7 +152,9 @@ class Main extends Component {
 
             <div className="steps-section ">
                 <div className="header">{this.state.header}</div>
-                <Steps model={items} activeIndex={this.state.activeIndex} readOnly={false}/>
+                <Steps ref={el => {
+                    this.stepContainer = el
+                }} model={items} activeIndex={this.state.activeIndex} readOnly={false}/>
                 <div className="steps-container">
                     {this.state.component}
                 </div>
