@@ -13,7 +13,6 @@ const reducer = ( state = initialState, action ) => {
                 ...action.questions
             };
         case actionTypes.UPDATE_QUESTIONS:
-            console.log( action )
             return {
                 ...state,
                 [action.payload.field]:action.payload.questions

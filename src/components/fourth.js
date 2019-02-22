@@ -1,7 +1,14 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
+import Cookies  from 'universal-cookie';
 import * as actions from '../store/actions/index';
 class Fourth extends Component {
+
+    constructor (props){
+        super(props);
+        this.cookie = new Cookies();
+    }
+
     componentWillMount() {
     }
 
@@ -15,6 +22,7 @@ class Fourth extends Component {
         return(
             <section className="third-step">
                 <div className="question-page-four questionnarie-container">
+                    <p className="questionnaire-text">How many calls would your father like to<br/>receive per week?</p>
                     <div className="page-four-buttons">
                         <button onClick={function () {
                             selectItem('1')
@@ -35,7 +43,8 @@ class Fourth extends Component {
 
 const mapStateToProps = state => {
     return {
-        products:state.products
+        products:state.products,
+        questions:state.questions
     };
 };
 const mapDispatchToProps = dispatch => {

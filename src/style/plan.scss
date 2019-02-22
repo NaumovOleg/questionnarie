@@ -1,0 +1,170 @@
+.plans-template-container{
+  display: flex;
+  justify-content: space-around;
+  width: 1280px;
+  margin: auto;
+  transition: all 1s;
+  -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 1s; /* Firefox < 16 */
+  -ms-animation: fadein 1s; /* Internet Explorer */
+  -o-animation: fadein 1s; /* Opera < 12.1 */
+  animation: fadein 1s;
+}
+
+.plans-template-container .plan-item{
+  width:370px;
+  background: #fff;
+  border-radius: 10px;
+  height:720px;
+  padding: 40px;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.26);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.26);
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.26);
+}
+.plans-template-container .plan-item .item-header{
+  text-transform: uppercase;
+  font-size:24px;
+  font-family: 'Avenir-Heavy', sans-serif;
+  border-bottom:20px solid #BEC1C3;
+  padding-bottom:20px;
+  margin-bottom: 30px;
+}
+.plans-template-container .plan-item.recommended .item-header{
+  border-bottom:20px solid #F7C82C;
+  color: #323334;
+}
+.item-center{
+  height: 80%;
+  border-bottom:20px solid #BEC1C3;
+}
+.plans-template-container .plan-item.recommended .item-center{
+  border-bottom:20px solid #F7C82C;
+}
+
+.plans-template-container .displayed_all .plan-item.Silver .item-center{
+  border-bottom:20px solid  #b7babc;
+}
+.plans-template-container .displayed_all .plan-item.Gold .item-center{
+  border-bottom:20px solid  #F7C82C;
+}
+.plans-template-container .displayed_all .plan-item.Platinum .item-center{
+  border-bottom:20px solid  #e8e8e7;
+}
+
+.item-center .main-description{
+  font-size: 18px;
+  font-family: 'Avenir-Light', sans-serif;
+  color:#323334
+}
+
+.plans-template-container .displayed_all .plan-item.Silver .item-header{
+  border-bottom:20px solid  #b7babc;
+}
+.plans-template-container .displayed_all .plan-item.Gold .item-header{
+  border-bottom:20px solid  #F7C82C;
+}
+.plans-template-container .displayed_all .plan-item.Platinum .item-header{
+  border-bottom:20px solid  #e8e8e7;
+}
+.item-center .main-description span {
+  color: #008BE2;
+  font-family: 'Avenir-Heavy', sans-serif;
+}
+
+.item-center .price{
+  font-size: 36px;
+  font-family: 'Avenir-Heavy', sans-serif;
+  height: 100px;
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.short-description{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color:#000;
+}
+.short-description a{
+  color:#616264;
+  font-size: 21px;
+  font-family: 'Avenir-Heavy', sans-serif;
+  line-height: 38px;
+}
+.plans-template-container .item-container{
+  display:none;
+}
+.plans-template-container .item-container.displayed {
+  display:block;
+}
+.plans-template-container .item-container.recommended {
+  display:block;
+}
+.plans-template-container .item-container .by-button{
+  width:280px;
+  height:70px;
+  outline:none;
+  color:#fff;
+  text-align: center;
+  border-radius: 70px;
+  background: #008BE2;
+  margin: auto;
+  display: block;
+  margin-top: 86px;
+  font-size:24px;
+  font-family: 'Avenir-Heavy', sans-serif;
+}
+.footer-plans-containers{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  margin: auto;
+  -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 1s; /* Firefox < 16 */
+  -ms-animation: fadein 1s; /* Internet Explorer */
+  -o-animation: fadein 1s; /* Opera < 12.1 */
+  animation: fadein 1s;
+}
+.footer-plans-containers span{
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 18px;
+  font-family: 'Avenir-Light', sans-serif;
+  color: #323334;
+}
+.footer-plans-containers #see-more-button{
+  width :158px;
+  min-height :40px;
+  height :40px;
+  outline:none;
+  background: #fff;;
+  border:1px solid #D0D3D5;
+  color:#008BE2;
+  text-align: center;
+  border-radius: 40px;
+  font-size: 16px;
+  font-family: 'Avenir-Heavy', sans-serif;
+  letter-spacing: 0;
+}
+
+.questionarrie-header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.questionarrie-header .sub-header{
+  font-family: 'Avenir-Medium', sans-serif;
+  font-size: 21px;
+  margin-top: 83px;
+  margin-bottom: 67px;
+  color: #616264;
+}
+
+button{
+  cursor:pointer
+}

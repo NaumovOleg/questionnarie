@@ -14,10 +14,18 @@
 .p-steps-item .p-menuitem-link .p-steps-number{
   background: #fff;
   color:#fff;
+  width: 15px;
+  height: 15px;
+  top:0px;
+  font-size:0px;
+}
+.p-steps-title{
+  display:none
 }
 .p-steps-item.p-highlight.p-steps-current .p-menuitem-link .p-steps-number{
   background: #F79F2C;
   color:#F79F2C;
+
 }
 .p-steps.p-component:before{
   border-top:none
@@ -38,7 +46,7 @@
   content: ' ';
   border-top: 1px solid #c8c8c8;
   width: 100%;
-  top: 60%;
+  top: 31%;
   left: 0;
   display: block;
   position: absolute;
@@ -49,7 +57,6 @@
    content: ' ';
    border-top: 1px solid #c8c8c8;
    width: 50%;
-   top: 60%;
    left: 50%;
    display: block;
    position: absolute;
@@ -60,7 +67,6 @@
   content: ' ';
   border-top: 1px solid #c8c8c8;
   width: 50%;
-  top: 60%;
   left: 0;
   display: block;
   position: absolute;
