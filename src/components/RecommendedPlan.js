@@ -1,7 +1,10 @@
 import React, {Component} from 'react';
+import ReactDOM from 'react-dom';
 import {connect} from 'react-redux';
 import * as actions from '../store/actions/index';
 import Cookies  from 'universal-cookie';
+import {Carousel} from 'react-responsive-carousel';
+
 class Reccommended extends Component {
 
     constructor( props ){
@@ -48,6 +51,8 @@ class Reccommended extends Component {
     };
 
     render() {
+
+
 
         let products = {
 
@@ -101,9 +106,16 @@ class Reccommended extends Component {
         const seeAllPlans = this.seeAllPlans;
 
 
+        // "Silver": {
+        //     plan: {},
+        //     topHeader: 'Our starter plan. Receive one Care Call per week plus unlimited text messaging.',
+        //         description: ' <a>1 Care Call per week</a> <a>Unlimited text messaging</a> <a>Carenotes sent weekly</a>',
+        //         price: '$49/mo'
+        // },
 
 
         return (
+
             <section className="reccommended-step">
                 <p style={{display:!this.state.seeAll?'block':'none'}} className="questionnaire-text">Here's your recommended Carenote plan</p>
                 <p style={{display:this.state.seeAll?'block':'none'}} className="questionnaire-text">Select a Carenote Plan</p>
@@ -145,6 +157,38 @@ class Reccommended extends Component {
                         Plans
                     </button>
                 </div>
+
+
+                <Carousel>
+                        {
+                            Object.keys(products).map((el, i) => {
+                                let itemContainerClass = this.state.seeAll ? 'item-container displayed_all displayed' : 'item-container ';
+                                let planItemClass = 'plan-item ' + el;
+                                if (el === reccommended) {
+                                    planItemClass = planItemClass + ' recommended';
+                                    itemContainerClass = itemContainerClass + ' recommended';
+                                }
+                                return  <div className={itemContainerClass} key={i}>
+                                    <img style={{display: 'none'}} src="http://lorempixel.com/output/cats-q-c-640-480-7.jpg" />
+                                    <div className={planItemClass}>
+                                            <div className="item-header">{el}</div>
+                                            <div className="item-center">
+                                                <div className="main-description">
+                                                    {products[el].topHeader}
+                                                </div>
+                                                <div className="price">{products[el].price}</div>
+                                                <div className="short-description"
+                                                     dangerouslySetInnerHTML={returnHtml(products[el].description)}>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button onClick={function () {
+                                            addToCart(products[el].plan.variantId)
+                                        }} className="by-button">Select {el}</button>
+                                    </div>
+                            })
+                        }
+                </Carousel>
             </section>
         )
 

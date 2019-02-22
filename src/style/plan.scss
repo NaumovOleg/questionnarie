@@ -175,6 +175,85 @@ button{
   cursor:pointer
 }
 
+.carousel .slide {
+  width: 375px;
+  background-color: transparent;
+}
+
+.carousel .thumb {
+  display: none;
+}
+
+.carousel .control-dots .dot.selected {
+  background-color: #008BE2;
+  border: 1px solid #008BE2;
+}
+
+.carousel .control-dots {
+  bottom: 85px;
+}
+
+.carousel .control-dots .dot{
+  box-shadow: none;
+  border: 1px solid #A1A2A5;
+  outline: none;
+}
+
+.carousel .plan-item {
+  max-width: 346px;
+  margin-left: 20px;
+  margin-top: 20px;
+  background: #fff;
+  border-radius: 10px;
+  height: 720px;
+  padding: 40px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.26);
+}
+
+.carousel .plan-item .item-header{
+  text-transform: uppercase;
+  font-size:24px;
+  font-family: 'Avenir-Heavy', sans-serif;
+  border-bottom:20px solid #BEC1C3;
+  padding-bottom:20px;
+  margin-bottom: 30px;
+}
+
+.carousel .plan-item.recommended .item-header{
+  border-bottom:20px solid #F7C82C;
+  color: #323334;
+}
+
+.carousel .carousel-status {
+  display: none;
+}
+
+.item-center{
+  height: 80%;
+  border-bottom:20px solid #BEC1C3;
+}
+.carousel .plan-item.recommended .item-center{
+  border-bottom:20px solid #F7C82C;
+}
+
+.carousel .item-container .by-button{
+  width:280px;
+  height:70px;
+  outline:none;
+  color:#fff;
+  text-align: center;
+  border-radius: 70px;
+  background: #008BE2;
+  margin: auto;
+  margin-left: 57px;
+  display: block;
+  margin-top: 86px;
+  font-size:24px;
+  font-family: 'Avenir-Heavy', sans-serif;
+}
+
+
+
 @media(max-width: 616px) {
 .plans-template-container .item-container .by-button {
     width: 180px;
