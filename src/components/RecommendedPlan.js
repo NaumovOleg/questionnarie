@@ -23,6 +23,7 @@ class Reccommended extends Component {
     };
 
     seeAllPlans = ()=>{
+        window.scrollTo(0, 0);
         this.props.setHeaderForLastStep();
         this.setState({
             seeAll:true
