@@ -1,7 +1,7 @@
 .plans-template-container{
   display: flex;
-  justify-content: space-around;
-  width: 1280px;
+  justify-content: center;
+  width: auto;
   margin: auto;
   transition: all 1s;
   -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
@@ -21,6 +21,10 @@
   -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.26);
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.26);
 }
+
+.plans-template-container .plan-item {
+  margin: 0 12px;
+}
 .plans-template-container .plan-item .item-header{
   text-transform: uppercase;
   font-size:24px;
@@ -29,6 +33,7 @@
   padding-bottom:20px;
   margin-bottom: 30px;
 }
+
 .plans-template-container .plan-item.recommended .item-header{
   border-bottom:20px solid #F7C82C;
   color: #323334;
@@ -167,4 +172,24 @@
 
 button{
   cursor:pointer
+}
+
+@media(max-width: 616px) {
+.plans-template-container .item-container .by-button {
+    width: 180px;
+    height: 46px;
+    font-size: 16px;
+  }
+
+.plans-template-container .plan-item {
+  margin: 0;
+  width: 80vw;
+}
+
+.footer-plans-containers {
+    width: auto;
+  }
+.footer-plans-containers #see-more-button {
+  margin-bottom: 20px;
+}
 }
