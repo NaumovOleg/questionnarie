@@ -17,7 +17,8 @@ class Reccommended extends Component {
     }
 
     state = {
-        seeAll: false
+        seeAll: false,
+        showCarousel: 'none'
     };
 
     selectItem = (value) => {
@@ -29,7 +30,8 @@ class Reccommended extends Component {
         window.scrollTo(0, 0);
         this.props.setHeaderForLastStep();
         this.setState({
-            seeAll:true
+            seeAll:true,
+            showCarousel: 'block'
         })
     };
 
@@ -105,6 +107,8 @@ class Reccommended extends Component {
 
         const seeAllPlans = this.seeAllPlans;
 
+        const { showCarousel } = this.state;
+
 
         // "Silver": {
         //     plan: {},
@@ -159,36 +163,43 @@ class Reccommended extends Component {
                 </div>
 
 
-                <Carousel>
+
+                <div style={{display: showCarousel}}>
+                    <Carousel centerSlidePercentage infiniteLoop={false}>
                         {
                             Object.keys(products).map((el, i) => {
                                 let itemContainerClass = this.state.seeAll ? 'item-container displayed_all displayed' : 'item-container ';
                                 let planItemClass = 'plan-item ' + el;
+
                                 if (el === reccommended) {
                                     planItemClass = planItemClass + ' recommended';
                                     itemContainerClass = itemContainerClass + ' recommended';
+
                                 }
+
                                 return  <div className={itemContainerClass} key={i}>
                                     <img style={{display: 'none'}} src="http://lorempixel.com/output/cats-q-c-640-480-7.jpg" />
                                     <div className={planItemClass}>
-                                            <div className="item-header">{el}</div>
-                                            <div className="item-center">
-                                                <div className="main-description">
-                                                    {products[el].topHeader}
-                                                </div>
-                                                <div className="price">{products[el].price}</div>
-                                                <div className="short-description"
-                                                     dangerouslySetInnerHTML={returnHtml(products[el].description)}>
-                                                </div>
+                                        <div className="item-header">{el}</div>
+                                        <div className="item-center">
+                                            <div className="main-description">
+                                                {products[el].topHeader}
+                                            </div>
+                                            <div className="price">{products[el].price}</div>
+                                            <div className="short-description"
+                                                 dangerouslySetInnerHTML={returnHtml(products[el].description)}>
                                             </div>
                                         </div>
-                                        <button onClick={function () {
-                                            addToCart(products[el].plan.variantId)
-                                        }} className="by-button">Select {el}</button>
                                     </div>
+                                    <button onClick={function () {
+                                        addToCart(products[el].plan.variantId)
+                                    }} className="by-button">Select {el}</button>
+                                </div>
                             })
                         }
-                </Carousel>
+                    </Carousel>
+                </div>
+
             </section>
         )
 
