@@ -29,7 +29,7 @@ class Third extends Component {
                             selectItem('other relative')
                         }}  className="questionnaire-page-three-button questionnaire-page-button"><a href="#">Other relative</a></button>
                         <button onClick={function () {
-                            selectItem('riend')
+                            selectItem('friend')
                         }}  className="questionnaire-page-three-button questionnaire-page-button"><a href="#">Friend</a></button>
                     </div>
                 </div>
