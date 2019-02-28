@@ -9,9 +9,11 @@ class Second extends Component {
     componentWillMount() {
         this.props.getProducts()
     }
-    selectItem = ( value )=>{
-        this.props.updateQuestion('usingState', value );
-        this.props.changeStep( )
+    selectItem = ( value, type )=>{
+        const { updateQuestion, changeStep, changeStepAnother } = this.props;
+        updateQuestion('usingState', value );
+        if(type) changeStep();
+        else changeStepAnother();
     };
 
     render() {
@@ -22,7 +24,7 @@ class Second extends Component {
                     <p className="questionnaire-text">Are you signing up for yourself or are you<br/>sponsoring a loved one? </ p>
                     <div className="page-buttons">
                         <button onClick={function () {
-                            selectItem('myself')
+                            selectItem('myself', 'one')
                         }}  className="questionnaire-page-two-button questionnaire-page-button"><a href="#">For myself</a></button>
                         <button onClick={function () {
                             selectItem('individual')

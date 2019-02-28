@@ -12,7 +12,9 @@ import 'primeicons/primeicons.css';
 import * as serviceWorker from './serviceWorker';
 import productsReducer from  './store/reducers/products';
 import parcedProductsReducer from  './store/reducers/parcedProducts';
-import questionsRedicer from './store/reducers/questions'
+import questionsRedicer from './store/reducers/questions';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+
 const rootReducer = combineReducers ( {
     products:productsReducer,
     parcedProducts:parcedProductsReducer,

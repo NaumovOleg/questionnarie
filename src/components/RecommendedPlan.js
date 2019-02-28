@@ -1,7 +1,10 @@
 import React, {Component} from 'react';
+import ReactDOM from 'react-dom';
 import {connect} from 'react-redux';
 import * as actions from '../store/actions/index';
 import Cookies  from 'universal-cookie';
+import {Carousel} from 'react-responsive-carousel';
+
 class Reccommended extends Component {
 
     constructor( props ){
@@ -14,7 +17,8 @@ class Reccommended extends Component {
     }
 
     state = {
-        seeAll: false
+        seeAll: false,
+        showCarousel: 'none'
     };
 
     selectItem = (value) => {
@@ -23,9 +27,11 @@ class Reccommended extends Component {
     };
 
     seeAllPlans = ()=>{
+        window.scrollTo(0, 0);
         this.props.setHeaderForLastStep();
         this.setState({
-            seeAll:true
+            seeAll:true,
+            showCarousel: 'block'
         })
     };
 
@@ -47,6 +53,8 @@ class Reccommended extends Component {
     };
 
     render() {
+
+
 
         let products = {
 
@@ -99,13 +107,23 @@ class Reccommended extends Component {
 
         const seeAllPlans = this.seeAllPlans;
 
+        const { showCarousel } = this.state;
 
+
+        // "Silver": {
+        //     plan: {},
+        //     topHeader: 'Our starter plan. Receive one Care Call per week plus unlimited text messaging.',
+        //         description: ' <a>1 Care Call per week</a> <a>Unlimited text messaging</a> <a>Carenotes sent weekly</a>',
+        //         price: '$49/mo'
+        // },
 
 
         return (
+
             <section className="reccommended-step">
                 <p style={{display:!this.state.seeAll?'block':'none'}} className="questionnaire-text">Here's your recommended Carenote plan</p>
                 <p style={{display:this.state.seeAll?'block':'none'}} className="questionnaire-text">Select a Carenote Plan</p>
+                <p className="swipe-plan">(Swipe to see more plans)</p>
 
                 <div className="plans-template-container">
                     {
@@ -138,12 +156,53 @@ class Reccommended extends Component {
                     }
                 </div>
 
+
+
+                <div style={{display: showCarousel}}>
+                    <Carousel centerSlidePercentage infiniteLoop={false}>
+                        {
+                            Object.keys(products).map((el, i) => {
+                                let itemContainerClass = this.state.seeAll ? 'item-container displayed_all displayed' : 'item-container ';
+                                let planItemClass = 'plan-item ' + el;
+
+                                if (el === reccommended) {
+                                    planItemClass = planItemClass + ' recommended';
+                                    itemContainerClass = itemContainerClass + ' recommended';
+
+                                }
+
+                                return  <div className={itemContainerClass} key={i}>
+                                    <img style={{display: 'none'}} src="http://lorempixel.com/output/cats-q-c-640-480-7.jpg" />
+                                    <div className={planItemClass}>
+                                        <div className="item-header">{el}</div>
+                                        <div className="item-center">
+                                            <div className="main-description">
+                                                {products[el].topHeader}
+                                            </div>
+                                            <div className="price">{products[el].price}</div>
+                                            <div className="short-description"
+                                                 dangerouslySetInnerHTML={returnHtml(products[el].description)}>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button onClick={function () {
+                                        addToCart(products[el].plan.variantId)
+                                    }} className="by-button">Select {el}</button>
+                                </div>
+                            })
+                        }
+                    </Carousel>
+                </div>
+
                 <div className="footer-plans-containers"><span>100% satisfaction guarantee. You may cancel our service withing 30 days for a full refund</span>
                     <button style={{display:this.state.seeAll?'none':'block'}} onClick={seeAllPlans} id="see-more-button" className="see-more-button" >
                         See More
                         Plans
                     </button>
                 </div>
+
+
+
             </section>
         )
 
