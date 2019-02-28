@@ -68,13 +68,13 @@ class Reccommended extends Component {
             "Gold": {
                 plan: {},
                 topHeader: 'Our most popular plan.   All the benefits of Silver plus an additional call per week.',
-                description: '<a>2 Care Calls per week</a> <a>2 Outbound calls per week</a> <a>Unlimited text messaging</a> <a>Carentes sent weekly</a>',
+                description: '<a>2 Care Calls per week</a> <a>2 Outbound calls per week</a> <a>Unlimited text messaging</a> <a>Carenotes sent weekly</a>',
                 price: '$89/mo'
             },
             "Platinum": {
                 plan: {},
                 topHeader: 'Premium plan offers everything from Gold plus everyday Care Calls, and a personal concierge.',
-                description: '<a>7 Care Calls per week</a> <a>Unlimited outbound calls</a> <a>Unlimited text messaging</a> <a>Carentes sent daily</a> <a>Dedicated personal concierge</a>',
+                description: '<a>7 Care Calls per week</a> <a>Unlimited outbound calls</a> <a>Unlimited text messaging</a> <a>Carenotes sent daily</a> <a>Dedicated personal concierge</a>',
                 price: '$299/mo'
             },
 

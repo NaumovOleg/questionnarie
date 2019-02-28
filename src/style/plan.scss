@@ -118,7 +118,8 @@
 .item-center .main-description{
   font-size: 18px;
   font-family: 'Avenir-Light', sans-serif;
-  color:#323334
+  color:#323334;
+  text-align: left;
 }
 
 .plans-template-container .displayed_all .plan-item.Silver .item-header{
@@ -143,6 +144,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  text-align: left;
 }
 .short-description{
   display: flex;
@@ -155,6 +157,7 @@
   font-size: 21px;
   font-family: 'Avenir-Heavy', sans-serif;
   line-height: 38px;
+  text-align: left;
 }
 .plans-template-container .item-container{
   display:none;
@@ -315,6 +318,9 @@ button{
 .carousel .slider-wrapper {
   overflow: inherit;
 }
+.carousel .slider {
+  margin-left: 30px;
+}
 
 .carousel .thumbs-wrapper {
   display: none;
@@ -436,7 +442,7 @@ button{
   }
 
   .carousel .short-description a {
-    font-size: 14px;
+    font-size: 15px;
     line-height: 21px;
   }
 }
