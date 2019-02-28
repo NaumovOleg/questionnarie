@@ -61,6 +61,15 @@
   }
 }
 
+.reccommended-step .swipe-plan {
+  font-family: 'Avenir-Light', sans-serif;
+  font-size: 16px;
+  color: #323334;
+  text-align: center;
+  padding-bottom: 30px;
+  display: none;
+}
+
 .plans-template-container .plan-item{
   width:370px;
   background: #fff;
@@ -267,6 +276,7 @@ button{
   border-bottom:20px solid #BEC1C3;
   padding-bottom:20px;
   margin-bottom: 30px;
+  text-align: left;
 }
 
 .carousel .plan-item.recommended .item-header{
@@ -306,6 +316,10 @@ button{
   overflow: inherit;
 }
 
+.carousel .thumbs-wrapper {
+  display: none;
+}
+
 .carousel.carousel-slider .control-arrow:hover {
   display: none;
 }
@@ -318,18 +332,61 @@ button{
   .carousel {
     display: flex;
   }
+  .carousel .slider {
+    width: 39%;
+  }
 
+  .carousel .control-dots .dot:last-child {
+    display: none;
+  }
+
+  .reccommended-step .swipe-plan {
+    display: block;
+  }
+
+}
+
+@media(max-width: 960px) {
   .carousel .plan-item {
     max-width: 270px;
     margin: auto;
     margin-top: 20px;
+    height: 550px;
   }
 
  .carousel .control-dots {
     padding-left: 0;
   }
+
+  .carousel .slider {
+    width: 33%;
+  }
+
 }
 
+@media(max-width: 864px) {
+  .carousel .slider {
+    width: 36%;
+  }
+}
+
+@media(max-width: 800px) {
+  .carousel .slider {
+    width: 40%;
+  }
+}
+
+@media(max-width: 732px) {
+  .carousel .slider {
+    width: 43%;
+  }
+}
+
+@media(max-width: 667px) {
+  .carousel .slider {
+    width: 48%;
+  }
+}
 
 @media(max-width: 616px) {
 .plans-template-container .item-container .by-button {
@@ -350,10 +407,36 @@ button{
 .footer-plans-containers #see-more-button {
   margin-bottom: 20px;
 }
+
+  .carousel .slider {
+    width: 56%;
+  }
+}
+
+@media(max-width: 532px) {
+  .carousel .slider {
+    width: 72%;
+  }
 }
 
 @media(max-width: 414px) {
   .carousel .control-dots .dot:last-child {
     display: inline-block;
+  }
+
+  .carousel .slider {
+    width: 82%;
+  }
+}
+
+@media(max-width: 360px) {
+  .carousel .slider {
+    width: 85%;
+    margin-left: 30px;
+  }
+
+  .carousel .short-description a {
+    font-size: 14px;
+    line-height: 21px;
   }
 }
