@@ -6,6 +6,7 @@ var axiosInstance = axios.create({
     baseURL: 'https://carenote-api.herokuapp.com/',
     /* other custom settings */
 });
+
 /**
  * Set Authorization header for requests
  *
