@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import {connect} from 'react-redux';
 import * as actions from '../store/actions/index';
 import Cookies  from 'universal-cookie';
-import {Carousel} from 'react-responsive-carousel';
+// import {Carousel} from 'react-responsive-carousel';
 
 class Reccommended extends Component {
 
@@ -164,41 +164,43 @@ class Reccommended extends Component {
 
 
 
-                <div style={{display: showCarousel}}>
-                    <Carousel centerSlidePercentage infiniteLoop={false}>
-                        {
-                            Object.keys(products).map((el, i) => {
-                                let itemContainerClass = this.state.seeAll ? 'item-container displayed_all displayed' : 'item-container ';
-                                let planItemClass = 'plan-item ' + el;
+                {/*<div style={{display: showCarousel}}>*/}
+                    {/*<Carousel centerSlidePercentage infiniteLoop={false}>*/}
+                        {/*{*/}
+                            {/*Object.keys(products).map((el, i) => {*/}
+                                {/*let itemContainerClass = this.state.seeAll ? 'item-container displayed_all displayed' : 'item-container ';*/}
+                                {/*let planItemClass = 'plan-item ' + el;*/}
 
-                                if (el === reccommended) {
-                                    planItemClass = planItemClass + ' recommended';
-                                    itemContainerClass = itemContainerClass + ' recommended';
+                                {/*if (el === reccommended) {*/}
+                                    {/*planItemClass = planItemClass + ' recommended';*/}
+                                    {/*itemContainerClass = itemContainerClass + ' recommended';*/}
 
-                                }
+                                {/*}*/}
 
-                                return  <div className={itemContainerClass} key={i}>
-                                    <img style={{display: 'none'}} src="http://lorempixel.com/output/cats-q-c-640-480-7.jpg" />
-                                    <div className={planItemClass}>
-                                        <div className="item-header">{el}</div>
-                                        <div className="item-center">
-                                            <div className="main-description">
-                                                {products[el].topHeader}
-                                            </div>
-                                            <div className="price">{products[el].price}</div>
-                                            <div className="short-description"
-                                                 dangerouslySetInnerHTML={returnHtml(products[el].description)}>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <button onClick={function () {
-                                        addToCart(products[el].plan.variantId)
-                                    }} className="by-button">Select {el}</button>
-                                </div>
-                            })
-                        }
-                    </Carousel>
-                </div>
+                                {/*return  <div className={itemContainerClass} key={i}>*/}
+                                    {/*<img style={{display: 'none'}} src="http://lorempixel.com/output/cats-q-c-640-480-7.jpg" />*/}
+                                    {/*<div className={planItemClass}>*/}
+                                        {/*<div className="item-header">{el}</div>*/}
+                                        {/*<div className="item-center">*/}
+                                            {/*<div className="main-description">*/}
+                                                {/*{products[el].topHeader}*/}
+                                            {/*</div>*/}
+                                            {/*<div className="price">{products[el].price}</div>*/}
+                                            {/*<div className="short-description"*/}
+                                                 {/*dangerouslySetInnerHTML={returnHtml(products[el].description)}>*/}
+                                            {/*</div>*/}
+                                        {/*</div>*/}
+                                    {/*</div>*/}
+                                    {/*<button onClick={function () {*/}
+                                        {/*addToCart(products[el].plan.variantId)*/}
+                                    {/*}} className="by-button">Select {el}</button>*/}
+                                {/*</div>*/}
+                            {/*})*/}
+                        {/*}*/}
+                    {/*</Carousel>*/}
+                {/*</div>*/}
+
+
 
             </section>
         )

@@ -23,7 +23,6 @@ class Main extends Component {
 
     };
     set1 = () => {
-
         this.setState({
             activeIndex: 1,
             header: "Relationship status",
@@ -51,7 +50,7 @@ class Main extends Component {
     state = {
         activeIndex: 0,
         header: "Who's signing up",
-        component: <Second changeStep={this.set1}/>,
+        component: <Second changeStep={this.set2} changeStepAnother={this.set1}/>,
         questions: {
             usingSteps: '',
             careMember: '',
