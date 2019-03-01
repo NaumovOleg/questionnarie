@@ -2,57 +2,148 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce18e044-f262-48d1-aade-072f068c4d88" name="Default" comment="">
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/RecommendedPlan.js" afterPath="$PROJECT_DIR$/src/components/RecommendedPlan.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/fourth.js" afterPath="$PROJECT_DIR$/src/components/fourth.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/main.js" afterPath="$PROJECT_DIR$/src/components/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/second-step.js" afterPath="$PROJECT_DIR$/src/components/second-step.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/third-step.js" afterPath="$PROJECT_DIR$/src/components/third-step.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/questionnarie-react-main.scss" afterPath="$PROJECT_DIR$/src/questionnarie-react-main.scss" />
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/store/actions/index.js" afterPath="$PROJECT_DIR$/src/store/actions/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/store/reducers/questions.js" afterPath="$PROJECT_DIR$/src/store/reducers/questions.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style/steps.scss" afterPath="$PROJECT_DIR$/src/style/steps.scss" />
+>>>>>>> OlegN
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/request.js" afterPath="$PROJECT_DIR$/src/utils/request.js" />
+>>>>>>> 4f152812ef1751a4af0ae45e27a276d688a0c84e
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/fourth.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+=======
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="840">
               <caret line="110" column="13" lean-forward="false" selection-start-line="110" selection-start-column="13" selection-end-line="110" selection-end-column="13" />
+>>>>>>> OlegN
+=======
+      <file leaf-file-name="header.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/header.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="16" column="40" lean-forward="false" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="40" />
+>>>>>>> 4f152812ef1751a4af0ae45e27a276d688a0c84e
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
-                <element signature="e#410#490#0" expanded="false" />
-                <element signature="e#509#677#0" expanded="false" />
-                <element signature="e#696#866#0" expanded="false" />
-                <element signature="e#885#1050#0" expanded="false" />
-                <element signature="e#1069#1266#0" expanded="false" />
-                <element signature="e#1280#1509#0" expanded="false" />
-                <element signature="e#2497#2792#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/third-step.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="53" selection-end-column="70" />
+=======
       <file leaf-file-name="fourth.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/fourth.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
+            <state relative-caret-position="0">
               <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+<<<<<<< HEAD
+>>>>>>> OlegN
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
+=======
+              <folding />
+>>>>>>> 4f152812ef1751a4af0ae45e27a276d688a0c84e
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="185">
+              <caret line="33" column="57" selection-start-line="33" selection-start-column="57" selection-end-line="33" selection-end-column="57" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+                <element signature="e#565#755#0" />
+=======
+      <file leaf-file-name="RecommendedPlan.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/RecommendedPlan.js">
+=======
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App.js">
+>>>>>>> 4f152812ef1751a4af0ae45e27a276d688a0c84e
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding>
+<<<<<<< HEAD
+                <element signature="e#1389#2508#0" expanded="false" />
+>>>>>>> OlegN
+=======
+                <element signature="e#0#39#0" expanded="true" />
+>>>>>>> 4f152812ef1751a4af0ae45e27a276d688a0c84e
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/RecommendedPlan.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="29" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+=======
+      <file leaf-file-name="request.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/utils/request.js">
+=======
+      <file leaf-file-name="questionnarie-react-main.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/questionnarie-react-main.scss">
+>>>>>>> 4f152812ef1751a4af0ae45e27a276d688a0c84e
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="101">
+              <caret line="40" column="13" lean-forward="false" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/style/main.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="34" lean-forward="false" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -60,8 +151,8 @@
       <file leaf-file-name="RecommendedPlan.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/RecommendedPlan.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="168" selection-end-column="75" />
               <folding>
                 <element signature="e#1389#2508#0" expanded="false" />
               </folding>
@@ -69,32 +160,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="request.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/utils/request.js">
+      <file leaf-file-name="third-step.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/third-step.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+            <state relative-caret-position="119">
+              <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="second-step.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/second-step.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="17" column="43" lean-forward="false" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="questions.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/store/reducers/questions.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="42" lean-forward="false" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
-              <folding />
+>>>>>>> OlegN
             </state>
           </provider>
         </entry>
@@ -107,6 +179,11 @@
         <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>max-width</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -125,57 +202,51 @@
         <option value="$PROJECT_DIR$/src/components/first-step.js" />
         <option value="$PROJECT_DIR$/src/store/actions/questions.js" />
         <option value="$PROJECT_DIR$/src/store/actions/actionTypes.js" />
-        <option value="$PROJECT_DIR$/src/components/third-step.js" />
         <option value="$PROJECT_DIR$/src/style/plan.scss" />
         <option value="$PROJECT_DIR$/src/store/actions/checkouturl.js" />
         <option value="$PROJECT_DIR$/src/store/actions/index.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/build/index.html" />
         <option value="$PROJECT_DIR$/src/store/actions/cart.js" />
         <option value="$PROJECT_DIR$/src/style/steps.scss" />
-        <option value="$PROJECT_DIR$/src/questionnarie-react-main.scss" />
         <option value="$PROJECT_DIR$/src/components/main.js" />
         <option value="$PROJECT_DIR$/src/components/fourth.js" />
         <option value="$PROJECT_DIR$/src/components/second-step.js" />
         <option value="$PROJECT_DIR$/src/store/reducers/questions.js" />
         <option value="$PROJECT_DIR$/src/components/RecommendedPlan.js" />
+        <option value="$PROJECT_DIR$/src/utils/request.js" />
+        <option value="$PROJECT_DIR$/src/components/third-step.js" />
+        <option value="$PROJECT_DIR$/src/components/header.js" />
+        <option value="$PROJECT_DIR$/src/questionnarie-react-main.scss" />
+        <option value="$PROJECT_DIR$/src/App.js" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
-    <package-json value="$PROJECT_DIR$/package.json" />
-  </component>
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/node_modules" />
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="754" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="11" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
+<<<<<<< HEAD
+          <expand>
+            <path>
+              <item name="questionnarie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="questionnarie" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+=======
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="questions" />
@@ -218,23 +289,68 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="questions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="questions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="style" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="questions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="questions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="Scratches" />
+>>>>>>> OlegN
       <pane id="Scope" />
+=======
+>>>>>>> 4f152812ef1751a4af0ae45e27a276d688a0c84e
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
-    <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="D:\projects\questions\node_modules\eslint" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="nodejs_package_manager_path" value="yarn" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projects\questions\src\assets" />
       <recent name="D:\projects\questions\src\store\reducers" />
       <recent name="D:\projects\questions\src" />
     </key>
@@ -251,6 +367,10 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
+  <component name="RunManager">
+    <configuration default="true" type="js.build_tools.gulp">
+=======
   <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/questions/build/index.html">
       <method />
@@ -309,17 +429,14 @@
       <method />
     </configuration>
     <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+>>>>>>> OlegN
       <node-interpreter>project</node-interpreter>
       <node-options />
-      <working-directory />
-      <pass-parent-env>true</pass-parent-env>
+      <gulpfile />
+      <tasks />
+      <arguments />
       <envs />
-      <ui />
-      <extra-mocha-options />
-      <test-kind>DIRECTORY</test-kind>
-      <test-directory />
-      <recursive>false</recursive>
-      <method />
+      <method v="2" />
     </configuration>
     <list size="1">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
@@ -330,8 +447,8 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -340,20 +457,65 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1550562527736</updated>
+<<<<<<< HEAD
+      <workItem from="1550562529243" duration="11684000" />
+      <workItem from="1550831740763" duration="380000" />
+=======
       <workItem from="1550562529243" duration="22665000" />
       <workItem from="1550654005215" duration="1834000" />
       <workItem from="1550744654827" duration="530000" />
       <workItem from="1550821510447" duration="3152000" />
+<<<<<<< HEAD
+>>>>>>> OlegN
+=======
+      <workItem from="1550848567111" duration="205000" />
+      <workItem from="1551190373706" duration="3226000" />
+      <workItem from="1551343946874" duration="2699000" />
+>>>>>>> 4f152812ef1751a4af0ae45e27a276d688a0c84e
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="12064000" />
+=======
     <option name="totallyTimeSpent" value="28181000" />
+>>>>>>> OlegN
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+=======
+    <option name="totallyTimeSpent" value="34311000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
+>>>>>>> 4f152812ef1751a4af0ae45e27a276d688a0c84e
     <layout>
+<<<<<<< HEAD
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21354167" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.31587562" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+=======
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19494048" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -361,7 +523,7 @@
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.49919486" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33977455" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -389,13 +551,42 @@
       <option name="time" value="1" />
     </breakpoint-manager>
     <watches-manager />
+>>>>>>> OlegN
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/store/reducers/questions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="42" lean-forward="false" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/request.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/third-step.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="247">
+          <caret line="28" column="26" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/primereact/components/steps/Steps.js" />
+    <entry file="file://$PROJECT_DIR$/src/utils/request.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" selection-start-column="19" selection-end-column="24" />
+=======
         <state relative-caret-position="255">
           <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="107" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -404,14 +595,14 @@
         <state relative-caret-position="782">
           <caret line="90" column="50" lean-forward="false" selection-start-line="90" selection-start-column="50" selection-end-line="90" selection-end-column="50" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="false" />
             <element signature="e#410#490#0" expanded="false" />
             <element signature="e#509#677#0" expanded="false" />
             <element signature="e#696#866#0" expanded="false" />
             <element signature="e#885#1050#0" expanded="false" />
             <element signature="e#1069#1266#0" expanded="false" />
             <element signature="e#1280#1509#0" expanded="false" />
-            <element signature="e#2440#2802#0" expanded="false" />
+            <element signature="e#2497#2792#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -421,7 +612,6 @@
         <state relative-caret-position="1207">
           <caret line="93" column="36" lean-forward="false" selection-start-line="93" selection-start-column="36" selection-end-line="93" selection-end-column="36" />
           <folding>
-            <element signature="e#0#39#0" expanded="false" />
             <element signature="e#1389#2508#0" expanded="false" />
           </folding>
         </state>
@@ -431,7 +621,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="116" lean-forward="false" selection-start-line="17" selection-start-column="116" selection-end-line="17" selection-end-column="116" />
+<<<<<<< HEAD
+>>>>>>> OlegN
           <folding />
+=======
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+>>>>>>> 4f152812ef1751a4af0ae45e27a276d688a0c84e
         </state>
       </provider>
     </entry>
@@ -439,12 +636,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-          <folding>
-            <element signature="e#344#365#0" expanded="false" />
-            <element signature="e#392#623#0" expanded="false" />
-            <element signature="e#697#723#0" expanded="false" />
-            <element signature="e#3412#3476#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -452,33 +643,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="107" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/main.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="221">
+          <caret line="44" column="24" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="24" />
+=======
         <state relative-caret-position="782">
           <caret line="90" column="50" lean-forward="false" selection-start-line="90" selection-start-column="50" selection-end-line="90" selection-end-column="50" />
+>>>>>>> OlegN
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="false" />
             <element signature="e#410#490#0" expanded="false" />
             <element signature="e#509#677#0" expanded="false" />
             <element signature="e#696#866#0" expanded="false" />
             <element signature="e#885#1050#0" expanded="false" />
             <element signature="e#1069#1266#0" expanded="false" />
             <element signature="e#1280#1509#0" expanded="false" />
-            <element signature="e#2440#2802#0" expanded="false" />
+            <element signature="e#2497#2792#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/RecommendedPlan.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="85">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="45" />
+=======
         <state relative-caret-position="1207">
           <caret line="93" column="36" lean-forward="false" selection-start-line="93" selection-start-column="36" selection-end-line="93" selection-end-column="36" />
           <folding>
-            <element signature="e#0#39#0" expanded="false" />
             <element signature="e#1389#2508#0" expanded="false" />
           </folding>
         </state>
@@ -488,20 +686,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="116" lean-forward="false" selection-start-line="17" selection-start-column="116" selection-end-line="17" selection-end-column="116" />
+<<<<<<< HEAD
+>>>>>>> OlegN
           <folding />
+=======
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+>>>>>>> 4f152812ef1751a4af0ae45e27a276d688a0c84e
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/questionnarie-react-main.scss">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state>
+=======
         <state relative-caret-position="204">
           <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-          <folding>
-            <element signature="e#344#365#0" expanded="false" />
-            <element signature="e#392#623#0" expanded="false" />
-            <element signature="e#697#723#0" expanded="false" />
-            <element signature="e#3412#3476#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -509,16 +711,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="107" />
+<<<<<<< HEAD
+>>>>>>> OlegN
           <folding />
+=======
+>>>>>>> 4f152812ef1751a4af0ae45e27a276d688a0c84e
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/RecommendedPlan.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state>
+=======
         <state relative-caret-position="1207">
           <caret line="93" column="36" lean-forward="false" selection-start-line="93" selection-start-column="36" selection-end-line="93" selection-end-column="36" />
           <folding>
-            <element signature="e#0#39#0" expanded="false" />
             <element signature="e#1389#2508#0" expanded="false" />
           </folding>
         </state>
@@ -528,7 +736,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="116" lean-forward="false" selection-start-line="17" selection-start-column="116" selection-end-line="17" selection-end-column="116" />
+<<<<<<< HEAD
+>>>>>>> OlegN
           <folding />
+=======
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+>>>>>>> 4f152812ef1751a4af0ae45e27a276d688a0c84e
         </state>
       </provider>
     </entry>
@@ -537,14 +752,14 @@
         <state relative-caret-position="850">
           <caret line="50" column="12" lean-forward="false" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="false" />
             <element signature="e#410#490#0" expanded="false" />
             <element signature="e#509#677#0" expanded="false" />
             <element signature="e#696#866#0" expanded="false" />
             <element signature="e#885#1050#0" expanded="false" />
             <element signature="e#1069#1266#0" expanded="false" />
             <element signature="e#1280#1509#0" expanded="false" />
-            <element signature="e#2440#2802#0" expanded="false" />
+            <element signature="e#2497#2792#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -572,50 +787,103 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/store/reducers/products.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state>
+          <folding />
+=======
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> OlegN
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/style/header.scss">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+=======
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> OlegN
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/style/third.scss">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="-148">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding />
+=======
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> OlegN
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/style/first.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
+<<<<<<< HEAD
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding />
+=======
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+>>>>>>> OlegN
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/style/second.scss">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state>
+          <folding />
+=======
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> OlegN
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/style/main.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
+<<<<<<< HEAD
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding />
+=======
           <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+>>>>>>> OlegN
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> 4f152812ef1751a4af0ae45e27a276d688a0c84e
     <entry file="file://$PROJECT_DIR$/src/style/fourth.scss">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/questionnarie-react-main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding>
+            <element signature="e#263#284#0" expanded="false" />
+            <element signature="e#310#537#0" expanded="false" />
+            <element signature="e#611#637#0" expanded="false" />
+            <element signature="e#3240#3304#0" expanded="false" />
+          </folding>
+=======
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> OlegN
         </state>
       </provider>
     </entry>
@@ -626,13 +894,23 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/components/first-step.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-464">
+<<<<<<< HEAD
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+=======
           <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+>>>>>>> OlegN
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> 4f152812ef1751a4af0ae45e27a276d688a0c84e
     <entry file="file://$PROJECT_DIR$/src/store/actions/actionTypes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -669,20 +947,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="28" column="26" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="49" lean-forward="false" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
@@ -693,14 +957,27 @@
     <entry file="file://$PROJECT_DIR$/src/store/actions/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
+<<<<<<< HEAD
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#62#0" expanded="true" />
+          </folding>
+=======
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+>>>>>>> OlegN
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="219">
+          <caret line="18" column="63" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
+          <folding />
+=======
         <state relative-caret-position="-168">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+>>>>>>> OlegN
         </state>
       </provider>
     </entry>
@@ -711,20 +988,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/actions/cart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/style/steps.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
+<<<<<<< HEAD
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="28" />
+          <folding />
+=======
           <caret line="48" column="9" lean-forward="false" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+>>>>>>> OlegN
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/questionnarie-react-main.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -738,6 +1014,12 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/components/fourth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+=======
     <entry file="file://$PROJECT_DIR$/src/components/third-step.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-204">
@@ -746,12 +1028,15 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> 4f152812ef1751a4af0ae45e27a276d688a0c84e
     <entry file="file://$PROJECT_DIR$/src/components/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
+        <state relative-caret-position="952">
           <caret line="110" column="13" lean-forward="false" selection-start-line="110" selection-start-column="13" selection-end-line="110" selection-end-column="13" />
+>>>>>>> OlegN
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="false" />
             <element signature="e#410#490#0" expanded="false" />
             <element signature="e#509#677#0" expanded="false" />
             <element signature="e#696#866#0" expanded="false" />
@@ -763,24 +1048,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/fourth.js">
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/components/third-step.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state>
+          <caret selection-end-line="53" selection-end-column="70" />
+=======
         <state relative-caret-position="306">
           <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+>>>>>>> OlegN
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/second-step.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="17" column="43" lean-forward="false" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+=======
     <entry file="file://$PROJECT_DIR$/src/store/reducers/questions.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -789,20 +1070,125 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/first-step.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/actions/cart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="32" lean-forward="false" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+          <folding />
+>>>>>>> 4f152812ef1751a4af0ae45e27a276d688a0c84e
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/components/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="33" column="57" selection-start-line="33" selection-start-column="57" selection-end-line="33" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#565#755#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/RecommendedPlan.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+        <state relative-caret-position="153">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="29" />
           <folding>
-            <element signature="e#1389#2508#0" expanded="false" />
-          </folding>
+            <element signature="e#0#39#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/components/second-step.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="43" lean-forward="false" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/request.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+        <state relative-caret-position="153">
+          <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/RecommendedPlan.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="168" selection-end-column="75" />
+          <folding>
+            <element signature="e#1389#2508#0" expanded="false" />
+>>>>>>> OlegN
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="16" column="40" lean-forward="false" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="28" column="34" lean-forward="true" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/questionnarie-react-main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="40" column="13" lean-forward="false" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="34" lean-forward="false" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/fourth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/third-step.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
           <folding />
         </state>
       </provider>

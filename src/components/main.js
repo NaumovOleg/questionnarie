@@ -23,7 +23,6 @@ class Main extends Component {
 
     };
     set1 = () => {
-
         this.setState({
             activeIndex: 1,
             header: "Relationship status",
@@ -51,7 +50,7 @@ class Main extends Component {
     state = {
         activeIndex: 0,
         header: "Who's signing up",
-        component: <Second changeStep={this.set1}/>,
+        component: <Second changeStep={this.set2} changeStepAnother={this.set1}/>,
         questions: {
             usingSteps: '',
             careMember: '',
@@ -151,7 +150,7 @@ class Main extends Component {
         return (
 
             <div className="steps-section ">
-                <div className="header">{this.state.header}</div>
+                <div className="questionarrie-question-header">{this.state.header}</div>
                 <Steps ref={el => {
                     this.stepContainer = el
                 }} model={items} activeIndex={this.state.activeIndex} readOnly={false}/>
