@@ -13,17 +13,18 @@ export const addToCart = ( variant, checkout ) => dispatch => {
             data: {
                 quantity: 1,
                 id: variant,
-                properties: [
-                    {
-                        name: 'shipping_interval_frequency',
-                        value: '30',
-                    },
-                    {
-                        name: 'shipping_interval_unit_type',
-                        value: 'Days',
-                    },
-                ],
-            }
+
+            },
+            properties: [
+                {
+                    name: 'shipping_interval_frequency',
+                    value: '30',
+                },
+                {
+                    name: 'shipping_interval_unit_type',
+                    value: 'Days',
+                },
+            ],
         } ).then( res => {
 
             document.location = checkout
