@@ -150,7 +150,7 @@ class Main extends Component {
         return (
 
             <div className="steps-section ">
-                <div className="header">{this.state.header}</div>
+                <div className="questionarrie-question-header">{this.state.header}</div>
                 <Steps ref={el => {
                     this.stepContainer = el
                 }} model={items} activeIndex={this.state.activeIndex} readOnly={false}/>
