@@ -73,4 +73,10 @@
   z-index: -9;
 }
 
+@media(max-width: 416px) {
+  .p-steps.p-component {
+    width: 61vw;
+  }
+}
+
 

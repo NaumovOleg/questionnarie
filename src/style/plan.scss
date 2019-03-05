@@ -93,16 +93,18 @@
   margin-bottom: 30px;
 }
 
-.plans-template-container .plan-item.recommended .item-header{
-  border-bottom:20px solid #F7C82C;
+.plans-template-container .plan-item.Gold .item-header{
   color: #323334;
+  border-bottom: 20px solid #F7C82C;
 }
+
+.plans-template-container .plan-item.Gold .item-center {
+  border-bottom: 20px solid #F7C82C;
+}
+
 .item-center{
   height: 80%;
   border-bottom:20px solid #BEC1C3;
-}
-.plans-template-container .plan-item.recommended .item-center{
-  border-bottom:20px solid #F7C82C;
 }
 
 .plans-template-container .displayed_all .plan-item.Silver .item-center{
@@ -291,9 +293,20 @@ button{
   text-align: left;
 }
 
-.carousel .plan-item.recommended .item-header{
-  border-bottom:20px solid #F7C82C;
-  color: #323334;
+.carousel .Gold .item-header {
+  border-bottom: 20px solid #F7C82C;
+}
+
+.carousel .Gold .item-center {
+  border-bottom: 20px solid #F7C82C;
+}
+
+.carousel .Platinum .item-header {
+  border-bottom: 20px solid #e8e8e7;
+}
+
+.carousel .Platinum .item-center {
+  border-bottom: 20px solid #e8e8e7;
 }
 
 .carousel .carousel-status {
@@ -303,9 +316,6 @@ button{
 .item-center{
   height: 80%;
   border-bottom:20px solid #BEC1C3;
-}
-.carousel .plan-item.recommended .item-center{
-  border-bottom:20px solid #F7C82C;
 }
 
 .carousel .item-container .by-button{

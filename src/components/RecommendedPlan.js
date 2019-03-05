@@ -110,13 +110,6 @@ class Reccommended extends Component {
         const { showCarousel } = this.state;
 
 
-        // "Silver": {
-        //     plan: {},
-        //     topHeader: 'Our starter plan. Receive one Care Call per week plus unlimited text messaging.',
-        //         description: ' <a>1 Care Call per week</a> <a>Unlimited text messaging</a> <a>Carenotes sent weekly</a>',
-        //         price: '$49/mo'
-        // },
-
 
         return (
 
