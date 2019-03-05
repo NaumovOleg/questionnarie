@@ -13,17 +13,15 @@ export const addToCart = ( variant, checkout ) => dispatch => {
             data: {
                 quantity: 1,
                 id: variant,
-                shipping_interval_frequency:'30'  ,
-                shipping_interval_unit_type:'Days',
-                subscription_id:168147
+                properties: {
+                    shipping_interval_frequency:'30'  ,
+                    shipping_interval_unit_type:'Days',
+                    subscription_id:168147
+
+                },
 
             },
-            properties: {
-                shipping_interval_frequency:'30'  ,
-                shipping_interval_unit_type:'Days',
-                subscription_id:168147
 
-            },
         } ).then( res => {
 
             document.location = checkout
