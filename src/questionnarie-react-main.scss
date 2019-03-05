@@ -207,6 +207,7 @@ html {
 
   #questionnarie .item-center .main-description {
     font-size: 14px;
+    line-height: 22px;
   }
 
   #questionnarie .item-center .price {
@@ -241,6 +242,11 @@ html {
     margin-top: 30px;
     margin-bottom: 30px;
     font-size: 14px;
+  }
+
+  #questionnarie .short-description a {
+    font-size: 16px;
+    line-height: 21px;
   }
 }
 
