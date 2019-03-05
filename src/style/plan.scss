@@ -130,9 +130,14 @@
 .plans-template-container .displayed_all .plan-item.Gold .item-header{
   border-bottom:20px solid  #F7C82C;
 }
-.plans-template-container .displayed_all .plan-item.Platinum .item-header{
-  border-bottom:20px solid  #e8e8e7;
+.plans-template-container .plan-item.Platinum .item-header {
+  border-bottom: 20px solid #e8e8e7;
 }
+
+.plans-template-container .plan-item.Platinum .item-center {
+  border-bottom: 20px solid #e8e8e7;
+}
+
 .item-center .main-description span {
   color: #008BE2;
   font-family: 'Avenir-Heavy', sans-serif;
